@@ -21,7 +21,7 @@ function Menu() {
                             <div className="item-logo">
                                 <img src={reacttts_img} alt="tsx" />
                             </div>
-                            Home.tsx
+                            home.tsx
                         </div>
                     </NavLink>
             </div>
