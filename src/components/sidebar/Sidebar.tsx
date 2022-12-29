@@ -1,12 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import account from '../../public/imgs/account.svg';
 import extensions from '../../public/imgs/extensions.svg';
-import python_img from '../../public/imgs/file_type_python.svg';
-import reacttts_img from '../../public/imgs/file_type_reactts.svg';
-import scss_img from '../../public/imgs/file_type_scss.svg';
-import text_img from '../../public/imgs/file_type_text.svg';
 import files from '../../public/imgs/files.svg';
-import github from '../../public/imgs/github-inverted.svg';
 import settings from '../../public/imgs/settings-gear.svg';
 import source_control from '../../public/imgs/source-control.svg';
 import { NavLink } from 'react-router-dom';
