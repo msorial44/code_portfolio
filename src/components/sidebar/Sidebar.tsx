@@ -16,7 +16,7 @@ function Sidebar() {
     return (
         <div className='sidemenu'>
             <div className='sidemenu-top-div'>
-            <div className={`section-div ${matchPath(window.location.pathname, '/home') ? 'active-section-title' : ''}`} >
+            <div className={`section-div ${matchPath(window.location.pathname, '/home') || matchPath(window.location.pathname, '/') ? 'active-section-title' : ''}`} >
                     <NavLink
                         to="/home"
                         className={({ isActive }) => isActive ? 'active-section-title' : ''}

@@ -11,7 +11,7 @@ function Menu() {
 
     return (
         <div className='menubar'>
-            <div className={`menu-item ${matchPath(window.location.pathname, '/home') ? 'active-menu-item' : ''}`} >
+            <div className={`menu-item ${matchPath(window.location.pathname, '/home') || matchPath(window.location.pathname, '/')  ? 'active-menu-item' : ''}`} >
                     <NavLink
                         to="/home"
                         style={{ textDecoration: 'none' }}
