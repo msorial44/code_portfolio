@@ -36,16 +36,6 @@ function Sidebar() {
                         </div>
                     </NavLink>
                 </div>
-                <div className={`section-div ${matchPath(window.location.pathname, '/github') ? 'active-section-title' : ''}`} >
-                    <NavLink
-                        to="/github"
-                        className={({ isActive }) => isActive ? 'active-section-title' : ''}
-                    >
-                        <div className="section-logo">
-                            <img src={source_control} alt="source-control" />
-                        </div>
-                    </NavLink>
-                </div>
                 <div className={`section-div ${matchPath(window.location.pathname, '/projects') ? 'active-section-title' : ''}`} >
                     <NavLink
                         to="/projects"
@@ -53,6 +43,16 @@ function Sidebar() {
                     >
                         <div className="section-logo">
                             <img src={extensions} alt="extensions" />
+                        </div>
+                    </NavLink>
+                </div>
+                <div className={`section-div ${matchPath(window.location.pathname, '/github') ? 'active-section-title' : ''}`} >
+                    <NavLink
+                        to="/github"
+                        className={({ isActive }) => isActive ? 'active-section-title' : ''}
+                    >
+                        <div className="section-logo">
+                            <img src={source_control} alt="source-control" />
                         </div>
                     </NavLink>
                 </div>
