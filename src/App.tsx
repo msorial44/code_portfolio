@@ -3,6 +3,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import Home from './components/home/Home';
 import About from './components/about/About';
+import Projects from './components/projects/Projects';
+import Github from './components/github/Github';
 
 function App() {
     return (
@@ -16,6 +18,12 @@ function App() {
             } />
             <Route path="/about" element={
                 <About />
+            } />
+            <Route path="/projects" element={
+                <Projects />
+            } />
+            <Route path="/github" element={
+                <Github />
             } />
             <Route path="*" element={<h1>404</h1>} />
           </Routes>
