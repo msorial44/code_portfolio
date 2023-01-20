@@ -1,0 +1,38 @@
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3%;
+    min-height: 50%;
+}
+
+.project-card {
+    box-shadow: inset 0 0.2rem 0 0 #88C0D0;
+    background-color: #4C566A;
+    width: 20%;
+    height: 100%;
+
+    .project-card-img {
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .project-card-content {
+        color: #F7F7F7;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        .project-card-title {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .project-card-content {
+            font-size: 0.5rem;
+        }
+    }
+
+}
