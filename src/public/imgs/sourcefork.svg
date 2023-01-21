@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" viewBox="0 0 35 35">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_72" data-name="Rectangle 72" width="35" height="35" transform="translate(326 1001)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_34" data-name="Mask Group 34" transform="translate(-326 -1001)" clip-path="url(#clip-path)">
+    <path id="code-fork-solid" d="M5.469,7.109A1.641,1.641,0,1,0,3.828,5.469,1.637,1.637,0,0,0,5.469,7.109Zm5.469-1.641a5.458,5.458,0,0,1-3.281,5.011v2.646a2.185,2.185,0,0,0,2.188,2.188H20.781a2.185,2.185,0,0,0,2.188-2.187V10.479a5.469,5.469,0,1,1,4.375,0v2.646a6.564,6.564,0,0,1-6.562,6.563H17.5v4.833a5.469,5.469,0,1,1-4.375,0V19.688H9.844a6.564,6.564,0,0,1-6.562-6.562V10.479a5.468,5.468,0,1,1,7.656-5.011ZM25.156,7.109a1.641,1.641,0,1,0-1.641-1.641A1.637,1.637,0,0,0,25.156,7.109Zm-8.2,22.422a1.641,1.641,0,1,0-1.641,1.641A1.637,1.637,0,0,0,16.953,29.531Z" transform="translate(328.188 1001)" fill="#fff"/>
+  </g>
+</svg>
