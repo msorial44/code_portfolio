@@ -5,6 +5,7 @@ import Home from './components/home/Home';
 import About from './components/about/About';
 import Projects from './components/projects/Projects';
 import Github from './components/github/Github';
+import Settings from './components/settingspage/Settings';
 
 function App() {
     return (
@@ -24,6 +25,9 @@ function App() {
             } />
             <Route path="/github" element={
                 <Github />
+            } />
+            <Route path="/settings" element={
+                <Settings />
             } />
             <Route path="*" element={<h1>404</h1>} />
           </Routes>
